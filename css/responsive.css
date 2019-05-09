@@ -546,7 +546,7 @@
 .datebox { padding: 24px 10px 12px 14px;}
 .bx_ullink ul li a {    line-height: 17px;}
 .copyright { margin-top: 4px;}
-.logo-apex img {width: 130px; height: auto; position: relative; margin-top: 0px; } 
+.logo-jarviot img {width: 130px; height: auto; position: relative; margin-top: 0px; } 
 .topbule {margin-left:0px; display: none; }
 .text-right {flex: 0 0 100% !important; max-width: 100% !important;} 
 .tw-top-bar-angle .top-contact-info span {font-size: 11px; padding-right:7px;} 
@@ -1163,7 +1163,7 @@ text-align: left;
 .tw-hero-slider .active img {margin-top:50px;}
 .tw-client {padding-bottom: 110px; padding-top: 0px;padding-top: 0px !important;}
 #yellowbottombox a { margin: 0 auto;}
-.logo-apex  img{ width:140px;}
+.logo-jarviot  img{ width:140px;}
  
 .btnplus-1 {position: relative; margin-top: 0px; margin-left:0px;}
 .btnplus-2 { position: relative; margin-top: 0px; margin-left: 0px;}
@@ -1183,7 +1183,7 @@ text-align: left;
 
 @media screen and (max-width:667px) {
 .bottomimg {margin-top: -52px; }
-.logo-apex img { width:140px;}
+.logo-jarviot img { width:140px;}
 .tw-top-bar-angle .top-contact-info span {font-size: 10px; padding-right:0px; padding-left:0px; }
 .top-contact-info span {margin-left: 7px;} 
 .navbar-expand-lg .navbar-nav {
@@ -1429,7 +1429,7 @@ div#blogsection {margin-top: 20px; }
 .navbar-nav {padding-left: 0;}
 .tw-nav-brand {margin-top: 40px;}
 .tw-header {height: 65px;}
-.logo-apex img {width: 150px; }
+.logo-jarviot img {width: 150px; }
 section {padding: 50px 0; }
 .section-heading h2 {width: 100%;}
 .Complete small {width: 90%;}

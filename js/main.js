@@ -49,7 +49,7 @@ $(function($) {
 		autoplay: true,
 		nav: true,
 		dots: false,
-		autoplayTimeout: 8000,
+		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
 		mouseDrag: false,
 		smartSpeed: 1100,
