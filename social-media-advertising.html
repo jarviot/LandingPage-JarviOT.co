@@ -23,7 +23,7 @@
    <!-- CSS
       ==================================================== -->
    <!--Font Awesome -->
-   <link rel="stylesheet" href="css/font-awesome.min.css" />
+   <link rel="stylesheet" href="css/font-awesome.min.css" /><script src="js/jquery-2.0.0.min.js"></script>
 
    <!--Animate CSS -->
    <link rel="stylesheet" href="css/animate.css" />
@@ -45,7 +45,13 @@
 
    <!--Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
+   <script src="js/jquery-1.10.2.js"></script>
 
+   <script>
+      $(function () {
+         $('#footer').load('./footer.html');
+      });
+   </script>
 
 
 </head>
@@ -95,32 +101,26 @@
       });
    </script>
 
-
    <div class="tw-top-bar tw-top-bar-angle bg-offwhite">
       <div class="container">
          <div class="row">
             <div class="col-md-3 text-left">
-               <div class="top-social-links">
-
-               </div>
+               <div class="top-social-links"></div>
             </div>
             <!-- Col End -->
             <div class="col-md-9 ml-auto text-right bule-colour">
-               <img src="images/topbule.png" alt="" class="topbule">
+               <img src="images/topbule.png" alt="" class="topbule" />
                <div class="top-contact-info">
-
-                  <span><a href="tel:+917203074260"><img src="images/iconbrand/call.png" alt="call">
+                  <span><a href="tel:+917203074260"><img src="images/iconbrand/call.png" alt="call" />
                         +91-7203-0742-60</a></span>
                   <span><a href="tel:+917203074260"><img src="images/whatsapp.png"
-                           alt="whatsapp">+91-7203-0742-60</a></span>
-                  <span class="tophide"><img src="images/skype.png" alt="skype"><a
-                        href="skype:apexinfotechindia?call">apexinfotechindia</a></span>
-                  <span class="tophide-email"><img src="images/iconbrand/e-Mail-1.png" alt="e-Mail"><a
+                           alt="whatsapp" />+91-7203-0742-60</a></span>
+                  <span class="tophide"><img src="images/skype.png" alt="skype" /><a
+                        href="skype:jarviot?call">jarviot</a></span>
+                  <span class="tophide-email"><img src="images/iconbrand/e-Mail-1.png" alt="e-Mail" /><a
                         href="mailto:hello.jarviot@gmail.com">hello.jarviot@gmail.com</a></span>
-                  <span class="tophide"><a href="#">Free Website Audit</a></span>
-
+                  <span class="tophide"><a href="#">JarvIOT.co</a></span>
                </div>
-
             </div>
             <!-- Col End -->
          </div>
@@ -129,7 +129,6 @@
       <!-- Container End -->
    </div>
    <!-- Top Bar end -->
-
    <!-- header======================-->
    <header>
       <div class="tw-header">
@@ -149,18 +148,8 @@
                      <li class="nav-item dropdown active">
                         <a class="nav-link active" href="index.html"> Home</a>
                      </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="aboutus.html" data-toggle="dropdown">
-                           About us
-                           <span class="tw-indicator"><i class="fa fa-angle-down"></i></span>
-                        </a>
-                        <ul class="dropdown-menu tw-dropdown-menu">
-                           <li><a href="aboutus.html">Profile</a></li>
-                           <li><a href="meet-the-team.html">Meet The Team</a></li>
-                           <!-- <li><a href="client-testimonials.html">Client Testimonials</a></li>-->
-                        </ul>
-                        <!-- End of Dropdown menu -->
-                     </li>
+
+
                      <li class="nav-item dropdown tw-megamenu-wrapper">
                         <a class="nav-link" href="#" data-toggle="dropdown">
                            Services
@@ -257,9 +246,17 @@
                         <!-- End of Mega menu -->
                      </li>
                      <!-- End Dropdown -->
+                     <li class="nav-item dropdown ">
+                        <a class="nav-link " href="aboutus.html"> About us</a>
+                     </li>
+                     <li class="nav-item dropdown ">
+                        <a class="nav-link " href="aboutus.html"> Meet the Team</a>
+                     </li>
                      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                      <!-- End Dropdown -->
-                     <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+                     <!-- Client 
+
+                   <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li> -->
                      <li><a class="hireus-btn" href="contactus.html">HIRE US</a></li>
                   </ul>
                   <!-- End Navbar Nav -->
@@ -274,6 +271,7 @@
       <!-- End tw head -->
    </header>
    <!-- End of Header area=-->
+
 
 
 
@@ -454,158 +452,7 @@
 
 
 
-   <!--Footer -->
-   <footer id="tw-footer" class="tw-footer"> <img src="images/btom-bg.png" alt="" class="img-fluid bottomimg">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12 col-lg-12">
-               <div class="row">
-                  <div class="col-md-3">
-                     <div class="footer-widget">
-                        <div class="section-heading">
-                           <h3>Contact Us</h3>
-                           <!-- <span class="animate-border border-black"></span>-->
-                        </div>
-                        <p><strong>Registered Office</strong><br>
-                           206, 2nd Floor, Kanakia Atrium 2 Premises Co-Op. Soc Ltd, Cross Road A, Chakala, MIDC,
-                           Andheri (East),
-                           Mumbai-400 093.</p>
-                        <div class="phone_bx">
-                           <div class="clearfix"></div>
-                        </div>
-                        <div class="phone_bx"> <img src="images/call.png" alt="Phone" title="Phone">
-                           <p><a href="tel:+917203074260">(+91) 7203074260</a></p>
-                           <div class="clearfix"></div>
-                        </div>
-                        <div class="phone_bx"> <img src="images/mail.png" alt="Email" title="Email">
-                           <p><a href="mailto:hello.jarviot@gmail.com"> hello.jarviot@gmail.com</a> </p>
-                           <div class="clearfix"></div>
-                        </div>
-                        <div class="phone_bx"> <img src="images/sk.png" alt="skype" title="skype">
-                           <p><a href="skype:apexinfotechindia?call">apexinfotechindia</a> </p>
-                           <div class="clearfix"></div>
-                        </div>
-                        <div class="btmlogo">
-                           <p><a href="index.html"><img src="images/logo2.png" class="img-responsive" alt="apex"
-                                    title="apex"></a></p>
-                           <div class="clearfix"></div>
-                        </div>
-
-                        <!-- End form -->
-                     </div>
-                     <!-- End footer widget -->
-                  </div>
-                  <div class="col-md-3">
-                     <div class="footer-widget">
-                        <div class="section-heading">
-                           <h3>Useful Links</h3>
-                        </div>
-                        <div class="bx_ullink">
-                           <ul>
-                              <li> <a href="googleadwords-ppc-services.html">Pay-Per-Click Marketing</a> </li>
-                              <li> <a href="social-media-advertising.html"> Social Media Marketing</a> </li>
-                              <li> <a href="seo-services.html">Search Engine Optimization</a> </li>
-                              <li> <a href="ecommerce-website-development.html">Ecommerce Website Design</a> </li>
-                              <li> <a href="responsive-web-design.html">Responsive Website Design</a> </li>
-                              <li> <a href="landing-page-design.html">Landing Page Design</a> </li>
-                              <li> <a href="web-development-company.html">Web Development Company</a> </li>
-                              <li> <a href="website-design-and-development-services.html">Website Design &amp;
-                                    Development</a> </li>
-                              <li> <a href="online-reputation-management.html">Online Reputation Management </a> </li>
-                           </ul>
-                        </div>
-                     </div>
-                     <!-- End Footer Widget -->
-                  </div>
-                  <!-- End col -->
-                  <div class="col-md-6">
-
-                     <!--blog section-->
-                     <div id="blogsection"></div>
-                     <!--end blog section-->
-
-                     <!-- End footer widget -->
-                  </div>
-                  <!-- End Col -->
-               </div>
-               <!-- End Row -->
-            </div>
-            <!-- End Col -->
-         </div>
-         <!-- End Widget Row -->
-      </div>
-      <!-- End Contact Container -->
-
-      <div class="copyright">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-5"> <span>Copyright &copy; 2019. JarvIOT.co Pvt. Ltd. All Right Reserved</span> </div>
-               <!-- End Col -->
-
-               <div class="col-md-4">
-                  <div class="bx_footericon">
-                     <ul>
-                        <li><a href="https://www.facebook.com/ApexInfotechIndia9/" target="_blank" rel="nofollow"><i
-                                 class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/ApexInfotech9" target="_blank" rel="nofollow"><i
-                                 class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://plus.google.com/u/0/105568992875872984752" target="_blank"
-                              rel="nofollow"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.instagram.com/apexinfotechindia/" target="_blank" rel="nofollow"><i
-                                 class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/apexinfotechindia" target="_blank"
-                              rel="nofollow"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://in.pinterest.com/Apexinfotechindia/" target="_blank" rel="nofollow"><i
-                                 class="fa fa-pinterest"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="copyright-menu">
-                     <ul>
-                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                        <li>| &nbsp;&nbsp;<a href="privacy-policy.html">Privacy Policy</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <!-- End col -->
-            </div>
-            <!-- End Row -->
-         </div>
-         <!-- End Copyright Container -->
-      </div>
-      <!-- End Copyright -->
-      <!-- Back to top -->
-      <div id="back-to-top" class="back-to-top">
-         <button class="btn btn-dark" title="Back to Top"> <i class="fa fa-angle-up"></i> </button>
-      </div>
-      <!-- End Back to top -->
-   </footer>
-   <!-- End Footer -->
-
-
-   <!--bottom panel box-->
-   <!--<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>-->
-   <div id="yellowbottombox">
-      <div class="container cont-90">
-         <div class="row">
-            <div class="col-md-3 call_wrapnew  call_wrapnew-mobile"><a href="tel:+917203074260"><img
-                     src="images/iconbrand/call.png" alt="call"> +91 7203074260</a></div>
-            <div class="col-md-3 call_wrapnew call_wrapnew-deskstop-bottom "><a href="tel:+917203074260"><img
-                     src="images/iconbrand/call.png" alt="call"> +91-7203-0742-60</a></div>
-
-            <div class="col-md-3 call_wrapnew call_wrapnew-mobile"><a href="skype:apexinfotechindia?call"><img
-                     src="images/skype.png" alt="skype"> apexinfotechindia</a></div>
-            <div class="col-md-3 call_wrapnew  call_wrapnew-mobile"><a
-                  href="https://web.whatsapp.com/send?phone=917203074260"><img src="images/whatsapp.png" alt="WhatsApp">
-                  WhatsApp : +91 7203074260</a></div>
-            <div class="col-md-3 call_wrapnew call_wrapnew-mobile" style="border:none;"><a
-                  href="mailto:hello.jarviot@gmail.com"><img src="images/iconbrand/e-Mail-1.png" alt="WhatsApp">
-                  hello.jarviot@gmail.com</a></div>
-         </div>
-      </div>
-   </div>
-   <!-- end bottom panel box-->
+   <div id="footer"></div>
 
 
    <!-- Javascripts File
@@ -632,9 +479,6 @@
    <!-- Template Custom -->
    <script src="js/main.js"></script>
 
-   <script>
-      $("#blogsection").load("blogsection.html");
-   </script>
 
 </body>
 
