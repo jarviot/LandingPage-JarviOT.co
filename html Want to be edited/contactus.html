@@ -72,6 +72,49 @@
 
 <body>
 
+   <link rel="stylesheet" href="css/loader.css">
+   <div class="loader">
+      <div class="loading">
+         <div class="finger finger-1">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-2">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-3">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-4">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="last-finger">
+            <div class="last-finger-item"><i></i></div>
+         </div>
+      </div>
+   </div>
+   <script>
+      $(document).ready(function () {
+         //Preloader
+         $(window).on("load", function () {
+            preloaderFadeOutTime = 500;
+
+            function hidePreloader() {
+               var preloader = $('.loader');
+               preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+         });
+      });
+   </script>
+
    <div id="header"></div>
 
 
@@ -237,7 +280,7 @@
                         </div>
                      </div>
                      <div class='fw200 dIB vat mL5'
-                        style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;vertical-align: top;margin-top: 3px;line-height: 14px;width:90%;display: inline-block;color:black'>
+                        style='text-align:left;font-size:12px;font-family:Arial;vertical-align: top;margin-top: 3px;line-height: 14px;width:90%;display: inline-block;color:black'>
                         <span
                            style='color: rgb(117, 117, 117); font-family: Raleway, sans-serif; font-size: 12px; background-color: rgb(247, 249, 248);'>&nbsp;I
                            agree to the&nbsp;</span><a href='privacy-policy.html'

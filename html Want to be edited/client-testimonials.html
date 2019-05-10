@@ -56,6 +56,49 @@
 </head>
 
 <body>
+
+   <link rel="stylesheet" href="css/loader.css">
+   <div class="loader">
+      <div class="loading">
+         <div class="finger finger-1">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-2">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-3">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="finger finger-4">
+            <div class="finger-item">
+               <span></span><i></i>
+            </div>
+         </div>
+         <div class="last-finger">
+            <div class="last-finger-item"><i></i></div>
+         </div>
+      </div>
+   </div>
+   <script>
+      $(document).ready(function () {
+         //Preloader
+         $(window).on("load", function () {
+            preloaderFadeOutTime = 500;
+
+            function hidePreloader() {
+               var preloader = $('.loader');
+               preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+         });
+      });
+   </script>
    <div id="header"></div>
 
    <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner5.jpg)">
@@ -238,7 +281,7 @@
    <!-- Template Custom -->
    <script src="js/main.js"></script>
 
-   
+
 </body>
 
 <!-- Mirrored from www.apexinfotechindia.com/client-testimonials.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2019 06:33:05 GMT -->
